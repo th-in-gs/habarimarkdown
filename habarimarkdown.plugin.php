@@ -22,6 +22,7 @@ class HabariMarkdown extends Plugin
 		Format::apply( 'markdown', 'post_content_summary_7' );
 		Format::apply( 'markdown', 'post_content_more_7' );
 		Format::apply( 'markdown', 'post_content_excerpt_7' );
+		Format::apply( 'markdown', 'post_content_excerpt_out_7' );
 		Format::apply( 'comment_safe_markdown', 'comment_content_out_7' );
 	}
 
